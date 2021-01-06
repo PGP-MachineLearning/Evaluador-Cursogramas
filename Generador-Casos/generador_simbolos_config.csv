@@ -1,0 +1,29 @@
+#####################################################################################################
+# $ = CONFIGURACIÓN DE SÍMBOLOS DE CURSOGRAMAS PARA GENERADOR
+#$,nombreClase,probabilidadUsarSectorInterno,probabilidadUsarSectorExterno,tipoReferencias
+#donde
+# probabilidadUsarSectorInterno,probabilidadUsarSectorExterno: Nro Natural
+# tipoReferencia: - (No Aplica), A (Número Arábigo), R (Nro Romano), L (Letras), D (Letras de tipo Documentos), T ( Textos de temporalidad ) 
+#####################################################################################################
+$,archivoDefinitivo.png,80,0,R
+$,archivoTransitorio.png,70,0,R
+$,conector_comienzoCorte.png,10,5,L
+$,conector_reanudacionCorte.png,10,5,L
+$,control.png,80,0,A
+$,decision.png,80,0,A
+$,operacion.png,80,0,A
+$,proceso.png,80,0,A
+$,procesoNoRelevado.png,0,80,-
+$,demora.png,0,0,-
+$,destruccion.png,10,10,-
+$,documento.png,80,80,D
+$,documentoElectronico.png,70,70,D
+$,temporalidad.png,80,80,T
+$,actualizacionLogica_flecha.png,50,0,-
+$,consultaLogica_flecha.png,50,0,-
+#####################################################################################################
+# ! = CONFIGURACIÓN DE REFERENCIAS ESPECIALES PARA SIMBOLOS
+#!,tiporReferencia,valores separados por "*"
+#####################################################################################################
+!,D,DNI*CH*F*FI*NP*OC*OP*R*Re
+!,T,Cuando el Cliente se presenta*Al comienzo del día*Al finalizar el día*Al comienzo del mes*Al finalizar el mes

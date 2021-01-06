@@ -1,0 +1,706 @@
+[
+	{
+		"origen": "",
+		"transicion": "",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "",
+		"transicion": "",
+		"destino": "procesoNoRelevado.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "",
+		"transicion": "",
+		"destino": "proceso.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "",
+		"transicion": "",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "archivoTransitorio.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "",
+		"destino": "",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "archivoTransitorio.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "archivoTransitorio.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documentoElectronico.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "control.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "decision.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "procesoNoRelevado.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "control.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "procesoNoRelevado.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documentoElectronico.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "procesoNoRelevado.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_comienzoCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "demora.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "destruccion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documentoElectronico.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "proceso.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "proceso.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "documentoElectronico.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documentoElectronico.png",
+		"exclusivo_interno": true,
+		"cambio_area": true,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documento.png",
+		"exclusivo_interno": false,
+		"cambio_area": true,
+		"error": false
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "decision.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "documento.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "actualizacionLogica_flecha.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "demora.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "operacion.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "decision.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "control.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "control.png",
+		"transicion": "consultaLogica_flecha.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_comienzoCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "control.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "consultaLogica_flechaLlena.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "control.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "decision.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "decision.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "decision.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "decision.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_reanudacionCorte.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "conector_comienzoCorte.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": false
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "control.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "decision.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoTransitorio.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "archivoDefinitivo.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "proceso.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "control.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "proceso.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "archivoDefinitivo.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "procesoNoRelevado.png",
+		"exclusivo_interno": false,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "demora.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "trasladoDeInformacion_vertical.png",
+		"destino": "conector_reanudacionCorte.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "operacion.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	},
+	{
+		"origen": "destruccion.png",
+		"transicion": "trasladoDeInformacion_horizontal.png",
+		"destino": "documento.png",
+		"exclusivo_interno": true,
+		"cambio_area": false,
+		"error": true
+	}
+]
