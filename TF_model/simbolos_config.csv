@@ -1,0 +1,37 @@
+#####################################################################################################
+# CONFIGURACIÓN DE SÍMBOLOS DE CURSOGRAMAS vFase2
+#nombreClase,descripcionClase,claseAgrupa,ignorarEnComparacion,cambiarAreaY,cambiarAreaX,OCRconfig,OCRcrop,OCRdescObs
+##donde:
+## 1-nombreClase: nombre real de la clase del símbolo.
+## 2-descripcionClase: descripción con que se muestra la clase del símbolo.
+## 3-claseAgrupa: tipo o clase de agrupación del símbolo (usada para indicar que corresponde usar otro) - id númerico.
+## 4-ignoraEnComparacion: indica si el símbolo se muestra en las correcciones (0) o no (1).
+## 5-cambiarAreaY: indica si el símbolo genera un cambio de área Y (1) o no (0).
+## 6-cambiarAreaX: indica si el símbolo genera un cambio de área X por columna (1 o 10), por área de organización (100), por área externa (1000) o no lo hace(0). 
+## 7-OCRConfig: indica si corresponde ejecutarle el OCR o no (-1), si es mayor a 0 se hace el valor es el tipo de configuración usada en el OCR (--psm).
+#### nota: por ahora sólo se hace de documentos y documentos electrónicos.
+## 8-OCRcrop: si se ejecuta el OCR, indica cuánto le tiene que recortar de la imagen para sacar el borde antes del OCR, se indica % de desplazamiento con respecto al tamaño del símbolo con el formato "izquierda*arriba*derecha*abajo" --- notar que pueden ser valores negativos.
+## 9-OCRdescObs: indica el texto que se muestra para explicar el resultado del OCR en las observaciones de la evaluación reliazada
+#####################################################################################################
+#nombreClase,descripcionClase,claseAgrupa,ignorarEnComparacion,cambiarAreaY,cambiarAreaX,OCRconfig,OCRcrop,OCRdescObs
+archivoDefinitivo,Archivo Definitivo,22,0,0,0,-1,-,-
+archivoTransitorio,Archivo Transitorio,22,0,0,0,-1,-,-
+conector_comienzoCorte,Conector de Comienzo de Corte,22,0,0,0,-1,15*15*30*30,con referencia
+conector_reanudacionCorte,Conector de Reanudacion de Corte,22,0,0,0,-1,30*30*15*15,con referencia
+control,Control,22,0,0,0,-1,13*13*13*13,con referencia
+decision,Decisión,31,0,1,0,-1,13*13*13*13,con referencia
+demora,Demora,22,0,0,0,-1,-,-
+destruccion,Destrucción,22,0,0,0,-1,-,-
+documento,Documento,21,0,0,0,6,10*10*6*3,de tipo
+documentoElectronico,Documento Electrónico,21,0,0,0,6,10*10*6*3,de tipo
+operacion,Operación,22,0,0,0,-1,15-15-15-15,con referencia
+proceso,Proceso,22,0,0,0,-1,13-13-13-13,con referencia
+procesoNoRelevado,Proceso No Relevado,22,0,0,0,-1,-,-
+temporalidad,Temporalidad,32,0,1,0,-1,1*-15*1*61,con descripción
+trasladoDeInformacion,Traslado de Información,11,1,0,1,-1,-,-
+trasladoDeInformacion_vertical,Traslado de Información,12,1,0,1,-1,-,-
+trasladoDeInformacion_horizontal,Traslado de Información,13,1,0,10,-1,-,-
+actualizacionLogica_flecha,Flecha de Actualizacion Logica,13,0,0,10,-1,-,-
+consultaLogica_flecha,Flecha de Consulta Lógica,13,0,0,10,-1,-,-
+separador_area_interna,Separador de Sector Interno,14,1,0,100,-1,-,-
+separador_area_externa,Separador de Sector Externo,14,0,0,1000,-1,-,-
